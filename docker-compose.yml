@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  mongo:
+    image: workshop-graphql-sample
+    build: .
+    ports:
+      - 27017:27017
